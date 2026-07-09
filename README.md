@@ -1,6 +1,6 @@
 # Sentiment Classification with LoRA Fine-Tuning (DistilBERT)
 
-[![CI](https://github.com/pythonshah/sentiment-lora-finetuning/actions/workflows/ci.yml/badge.svg)](https://github.com/pythonshah/sentiment-lora-finetuning/actions/workflows/ci.yml)
+[![CI](https://github.com/pythonshah/sentiment-lora-finetuning-IMDB-Dataset/actions/workflows/ci.yml/badge.svg)](https://github.com/pythonshah/sentiment-lora-finetuning-IMDB-Dataset/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
 Parameter-efficient fine-tuning of **DistilBERT** for binary sentiment classification (positive/negative) on the full 50,000-review IMDB Movie Reviews dataset, using **LoRA (Low-Rank Adaptation)** via HuggingFace's PEFT library — with a full experimental workflow around it: a classical baseline for comparison, a rank ablation study, model explainability, out-of-distribution robustness testing, and a live interactive demo.
@@ -49,8 +49,8 @@ sentiment-lora-finetuning/
 ## Setup
 
 ```bash
-git clone https://github.com/pythonshah/sentiment-lora-finetuning.git
-cd sentiment-lora-finetuning
+git clone https://github.com/pythonshah/sentiment-lora-finetuning-IMDB-Dataset.git
+cd sentiment-lora-finetuning-IMDB-Dataset
 pip install -r requirements-dev.txt   # includes testing, linting, notebook + demo extras
 ```
 
