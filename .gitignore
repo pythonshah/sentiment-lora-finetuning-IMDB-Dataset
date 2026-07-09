@@ -1,0 +1,27 @@
+# Data
+*.csv
+data/
+
+# Model artifacts
+my_lora_model/
+my_first_finetuned_model/
+*.safetensors
+*.bin
+checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+venv/
+.env
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+logs/
+runs/
+wandb/
